@@ -7,6 +7,8 @@ docs_dir: content
 edit_uri: https://github.com/hedgedoc/hedgedoc/edit/master/docs/content/
 nav:
   - Home: index.md
+  - Interface:
+      Toolbar: interface/toolbar.md
   - Installation:
       - 'Manual Installation': setup/manual-setup.md
       - 'Reverse Proxy': setup/reverse-proxy.md
