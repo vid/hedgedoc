@@ -75,7 +75,15 @@ link, if it thinks that the selected text is a link, or as the alt text.
 2. **Horizontal Line**  
    This button adds `---` at the current position of your cursor in the note.
 3. **Collapsable Block**  
-   This button adds a template for a Collapsable Block.
+   This button adds a template for a Collapsable Block like this:
+
+     ```
+     <details>
+        <summary>Toggle label</summary>
+        Toggled content
+     </details>
+     ```
+
 4. **Comment**
    This button adds `> []` at the beginning of the line. You can either specify a name for your comment by
    inserting `name=$YourName`, a time by inserting `time=$time` or a color by inserting `color=#FFFFFF` in the `[]`.
