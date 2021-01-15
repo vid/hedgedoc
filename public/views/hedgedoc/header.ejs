@@ -17,6 +17,12 @@
             <img src="<%- serverURL %>/banner/banner_h_bw.svg" alt="HedgeDoc" class="h-100 no-night">
             <img src="<%- serverURL %>/banner/banner_h_wb.svg" alt="HedgeDoc" class="h-100 night">
         </a>
+        <div class="nav navbar-nav pull-left">
+            <textarea style="height: 2em; margin-top: 10px; margin-right: 4px" id="path-search" placeholder="🔎"></textarea>
+        </div>
+        <div class="nav navbar-nav pull-left visible-md visible-lg" pull-left>
+            <h4 id="path-title" class="updating" style="padding-top: 4px; padding-right: 4px"></h4>
+        </div>
         <div class="nav-mobile pull-right visible-xs">
             <a data-toggle="dropdown" class="btn btn-link">
                 <i class="fa fa-caret-down"></i>

@@ -32,6 +32,9 @@ require('../vendor/md-toc')
 var Viz = require('viz.js')
 const ui = getUIElements()
 
+const  mdld  = require('mdld')
+require('../css/mdld.css')
+
 // auto update last change
 window.createtime = null
 window.lastchangetime = null
@@ -999,6 +1002,9 @@ export let md = markdownit('default', {
   typographer: true,
   highlight: highlightRender
 })
+
+mdld.bootmdld(md)
+
 window.md = md
 
 md.use(require('markdown-it-abbr'))

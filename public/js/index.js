@@ -2743,7 +2743,9 @@ function updateViewInner () {
   var lastMeta = md.meta
   md.meta = {}
   delete md.metaError
-  var rendered = md.render(value)
+  // var rendered = md.render(value)
+  var rendered = md.ldrender(value) // mdld
+
   if (md.meta.type && md.meta.type === 'slide') {
     ui.area.view.addClass('black')
     var slideOptions = {
