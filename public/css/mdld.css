@@ -1,35 +1,39 @@
+.markdown-body {
+  max-width: 85%;
+}
 
-#path-search, .path-found {
-    color: black;
+#path-search,
+.path-found {
+  color: black;
 }
 
 .path-note-match {
-    border-radius: 8px 0 8px 0;
-    padding: 4px;
-    color: black;
-    margin: 4px;
-    line-height: 2.3em;
-    white-space: nowrap;
+  border-radius: 8px 0 8px 0;
+  padding: 4px;
+  color: black;
+  margin: 4px;
+  line-height: 2.3em;
+  white-space: nowrap;
 }
 
 .path-note-match-meta {
-    background: #9999ff;
+  background: #9999ff;
 }
 
 .path-note-match-remote {
-    background: #99ff99;
+  background: #99ff99;
 }
 
 .path-note-match-merged {
-    background: orange;
+  background: orange;
 }
 
 .path-note-match-path {
-    background: #d5c3ac;
+  background: #d5c3ac;
 }
 
 .q-query {
-    font-style: italic;
+  font-style: italic;
 }
 
 .updating {
@@ -38,7 +42,7 @@
 }
 
 .updating::before {
-  content: '📚';
+  content: "📚";
   font-style: normal;
 }
 
@@ -49,5 +53,5 @@
 }
 
 .view-selected {
-    background: white;
+  background: white;
 }
